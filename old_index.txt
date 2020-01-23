@@ -1,0 +1,82 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="BlissBite Blog Recipe Contest Website">
+    <meta name="author" content="BlissBite">
+
+    <title>BlissBite Blog Recipe Contest</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <main role="main" class="container" style="text-align:center;">
+
+      <div class="jumbotron">
+        <h1 class="display-5">BlissBite Blog Recipe Contest</h1>
+        <br/>
+        <h2 class="display-6">Hello Contestants!!!</h2>
+        <br/>
+        <p class="lead" align="justify">
+          To participate in this contest, you need to provide your write-up on your favourite recipe in Word Template available below.<br/>
+          Additional details about the contest could be found <a href="files/BlissBite Blog Competition Brochure.pdf" target="_blank">here</a>.
+        </p>
+        <br/>
+        <hr class="my-4">
+        <div class="card text-center">
+          <div class="card-header">
+            <b>STEP 1</b>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Download Word File Template</h5>
+            <p>Firstly, you need to download the Word File Template to fill your write-up along with images.</p>
+            <a href="files/Recipe Submission Word Template.docx" target="_blank" type="button" class="btn btn-primary" style="color:white;width:12rem;font-size: small;">Click Here To<br/>Download Word File Template</a>
+          </div>
+          <div class="card-footer text-muted">
+            <small><p>For reference, please have a look at this <a href="files/Rajeev_Kumar_Classic Tomato Salsa with Basil.docx" target="_blank">Sample Submission</a> to get to know, how to fill the word template file.</p></small>
+          </div>
+        </div>
+        <hr class="my-4">
+        <div class="card text-center">
+          <div class="card-header">
+            <b>STEP 2</b>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Submit Your Word File</h5>
+            <p>Once you are ready with your write-up, you need to submit your word file using below button.</p>
+            <a href="https://forms.gle/XpQYBu6QEsqPkzeE6" target="_blank" type="button" class="btn btn-primary" style="color:white;width:12rem;font-size: small;">Click Here To<br/>Submit Your Word File</a>
+          </div>
+          <div class="card-footer text-muted">
+            <small><p>By participating in contest, you accept the following <a href="terms_and_conditions.html" target="_blank">Terms and Conditions of the Contest</a>.</p></small>
+          </div>
+        </div>
+        <hr class="my-4">
+        <br/>
+        <p>For more updates/queries, reach out to us on any of the below social media platforms.</p>
+        <a href="https://www.facebook.com/BlissBiteOfficial"><i class="fab fa-facebook-square fa-2x"></i></a> &emsp;&emsp;
+        <a href="https://www.linkedin.com/company/BlissBiteOfficial"><i class="fab fa-linkedin fa-2x"></i></a> &emsp;&emsp;
+        <a href="https://www.instagram.com/BlissBiteOfficial"><i class="fab fa-instagram fa-2x"></i></a> &emsp;&emsp;
+        <a href="https://twitter.com/BlissBite"><i class="fab fa-twitter-square fa-2x"></i></a>
+      </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

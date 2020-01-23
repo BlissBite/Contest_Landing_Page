@@ -1,81 +1,187 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="BlissBite Blog Recipe Contest Website">
-    <meta name="author" content="BlissBite">
 
-    <title>BlissBite Blog Recipe Contest</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="BlissBite Blog Recipe Contest Website">
+  <meta name="author" content="BlissBite">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>BlissBite Blog Recipe Contest</title>
 
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="fontawesome/css/all.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
-    <link href="sticky-footer.css" rel="stylesheet">
-  </head>
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="fontawesome/css/all.min.css" rel="stylesheet">
 
-  <body>
+  <style>
+    .nav-tabs .nav-link {
+      border: 1px solid black;
+      border-bottom: 0px;
+    }
 
-    <!-- Begin page content -->
-    <main role="main" class="container" style="text-align:center;">
+    .nav-tabs .nav-link.active {
+      color: white;
+      background-color: grey;
+      border: 1px solid black;
+      border-bottom: 0px;
+    }
 
-      <div class="jumbotron">
-        <h1 class="display-5">BlissBite Blog Recipe Contest</h1>
-        <br/>
-        <h2 class="display-6">Hello Contestants!!!</h2>
-        <br/>
-        <p class="lead" align="justify">
-          To participate in this contest, you need to provide your write-up on your favourite recipe in Word Template available below.<br/>
-          Additional details about the contest could be found <a href="files/BlissBite Blog Competition Brochure.pdf" target="_blank">here</a>.
-        </p>
-        <br/>
-        <hr class="my-4">
-        <div class="card text-center">
-          <div class="card-header">
-            <b>STEP 1</b>
+    .nav-tabs>li a {
+      background-color: lightgray;
+      color: white;
+    }
+
+    .nav-tabs>li>a:hover {
+      color: white;
+      background-color: grey;
+    }
+
+    .tab-pane {
+      border: solid 1px black;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Begin page content -->
+  <main role="main" class="container" style="text-align:center;">
+
+    <div class="jumbotron">
+      <h1 class="display-5">BlissBite Blog Recipe Contest</h1>
+      <br />
+      <h2 class="display-6">Hello Contestants!!!</h2>
+      <br />
+      <p class="lead" align="justify">
+        To participate in this contest, you need to provide your write-up on your favourite recipe. Additional details about the contest could be found <a href="files/BlissBite Blog Competition Brochure.pdf"
+          target="_blank">here</a>.
+      </p>
+      <p class="lead" style="text-align: left;">
+        Based on technical skills of our contestants, we have two different modes of participation.
+        <br />
+        <b>1. For New Bloggers:</b> You can submit your recipe by filling a <i>Word File Template</i> provided below.<br />
+        <b>2. For Experienced Bloggers:</b> You can submit your recipe on our blogging site by details provided below.
+
+        <br/><br/><small><b>Further details are provided below. Please choose the mode carefully based on your technical knowledge.</b></small>
+      </p>
+      <br />
+      <hr class="my-4">
+    
+      <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#FormSubmission" role="tab"
+            aria-controls="FormSubmission" aria-selected="true">Click Here For New Bloggers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#BlogSubmission" role="tab"
+            aria-controls="BlogSubmission" aria-selected="false">Click Here For Experienced Bloggers</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="FormSubmission" role="tabpanel" aria-labelledby="FormSubmission-tab">
+          <div class="card text-center">
+            <div class="card-header">
+              <b>STEP 1</b>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Download Word File Template</h5>
+              <p>Firstly, you need to download the Word File Template to fill your write-up along with images.</p>
+              <a href="files/Recipe Submission Word Template.docx" target="_blank" type="button" class="btn btn-primary"
+                style="color:white;width:12rem;font-size: small;">Click Here To<br />Download Word File Template</a>
+            </div>
+            <div class="card-footer text-muted">
+              <small>
+                <p>For reference, please have a look at this <a
+                    href="files/Rajeev_Kumar_Classic Tomato Salsa with Basil.docx" target="_blank">Sample Submission</a>
+                  to get to know, how to fill the word template file.</p>
+              </small>
+            </div>
           </div>
-          <div class="card-body">
-            <h5 class="card-title">Download Word File Template</h5>
-            <p>Firstly, you need to download the Word File Template to fill your write-up along with images.</p>
-            <a href="files/Recipe Submission Word Template.docx" target="_blank" type="button" class="btn btn-primary" style="color:white;width:12rem;font-size: small;">Click Here To<br/>Download Word File Template</a>
-          </div>
-          <div class="card-footer text-muted">
-            <small><p>For reference, please have a look at this <a href="files/Rajeev_Kumar_Classic Tomato Salsa with Basil.docx" target="_blank">Sample Submission</a> to get to know, how to fill the word template file.</p></small>
+          <hr class="my-4">
+          <div class="card text-center">
+            <div class="card-header">
+              <b>STEP 2</b>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Submit Your Word File</h5>
+              <p>Once you are ready with your write-up, you need to submit your word file using below button.</p>
+              <a href="https://forms.gle/XpQYBu6QEsqPkzeE6" target="_blank" type="button" class="btn btn-primary"
+                style="color:white;width:12rem;font-size: small;">Click Here To<br />Submit Your Word File</a>
+            </div>
+            <div class="card-footer text-muted">
+              <small>
+                <p>By participating in contest, you accept the following <a href="terms_and_conditions.html"
+                    target="_blank">Terms and Conditions of the Contest</a>.</p>
+              </small>
+            </div>
           </div>
         </div>
-        <hr class="my-4">
-        <div class="card text-center">
-          <div class="card-header">
-            <b>STEP 2</b>
+        <div class="tab-pane fade" id="BlogSubmission" role="tabpanel" aria-labelledby="BlogSubmission-tab">
+          <div class="card text-center">
+            <div class="card-header">
+              <b>STEP 1</b>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Register on Blog Site</h5>
+              <p>Firstly, you need to register yourself on our blogging platform.<br/>Open the website from the button below and click on "REGISTER" (top right corner).</p>
+              <a href="https://blog.blissbite.in" target="_blank" type="button" class="btn btn-primary"
+                style="color:white;width:12rem;font-size: small;">Click Here To<br />Register on Blog Site</a>
+            </div>
+            <div class="card-footer text-muted">
+              <small>
+                <p>For reference, please have a look at this <a
+                    href="https://blog.blissbite.in/recipe/gluten-free-beef-lasagne/" target="_blank">Sample Recipe</a>
+                  to get to know, what sections are needed.</p>
+              </small>
+            </div>
           </div>
-          <div class="card-body">
-            <h5 class="card-title">Submit Your Word File</h5>
-            <p>Once you are ready with your write-up, you need to submit your word file using below button.</p>
-            <a href="https://forms.gle/XpQYBu6QEsqPkzeE6" target="_blank" type="button" class="btn btn-primary" style="color:white;width:12rem;font-size: small;">Click Here To<br/>Submit Your Word File</a>
-          </div>
-          <div class="card-footer text-muted">
-            <small><p>By participating in contest, you accept the following <a href="terms_and_conditions.html" target="_blank">Terms and Conditions of the Contest</a>.</p></small>
+          <hr class="my-4">
+          <div class="card text-center">
+            <div class="card-header">
+              <b>STEP 2</b>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Submit Your Recipe</h5>
+              <p>Once you are registered on our website, you need to submit your recipe using the form there.</p>
+              <a href="https://blog.blissbite.in/submit-recipe/" target="_blank" type="button" class="btn btn-primary"
+                style="color:white;width:12rem;font-size: small;">Click Here To<br />Submit Your Recipe</a>
+            </div>
+            <div class="card-footer text-muted">
+              <small>
+                <p>By participating in contest, you accept the following <a href="terms_and_conditions.html"
+                    target="_blank">Terms and Conditions of the Contest</a>.</p>
+              </small>
+            </div>
           </div>
         </div>
-        <hr class="my-4">
-        <br/>
-        <p>For more updates/queries, reach out to us on any of the below social media platforms.</p>
-        <a href="https://www.facebook.com/BlissBiteOfficial"><i class="fab fa-facebook-square fa-2x"></i></a> &emsp;&emsp;
-        <a href="https://www.linkedin.com/company/BlissBiteOfficial"><i class="fab fa-linkedin fa-2x"></i></a> &emsp;&emsp;
-        <a href="https://www.instagram.com/BlissBiteOfficial"><i class="fab fa-instagram fa-2x"></i></a> &emsp;&emsp;
-        <a href="https://twitter.com/BlissBite"><i class="fab fa-twitter-square fa-2x"></i></a>
       </div>
-    </main>
+    
+      <hr class="my-4">
+      <br />
+      <p>For more updates/queries, reach out to us on any of the below social media platforms.</p>
+      <a href="https://www.facebook.com/BlissBiteOfficial"><i class="fab fa-facebook-square fa-2x"></i></a> &emsp;&emsp;
+      <a href="https://www.linkedin.com/company/BlissBiteOfficial"><i class="fab fa-linkedin fa-2x"></i></a>
+      &emsp;&emsp;
+      <a href="https://www.instagram.com/BlissBiteOfficial"><i class="fab fa-instagram fa-2x"></i></a> &emsp;&emsp;
+      <a href="https://twitter.com/BlissBite"><i class="fab fa-twitter-square fa-2x"></i></a>
+    </div>
+  </main>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
